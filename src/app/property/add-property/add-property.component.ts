@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { NgForm } from '@angular/forms';
+import { FormBuilder, NgForm } from '@angular/forms';
 import { Router } from '@angular/router';
 import {TabsetComponent} from 'ngx-bootstrap/tabs'
 import { Ipropertybase } from 'src/app/models/iproperty-base';
